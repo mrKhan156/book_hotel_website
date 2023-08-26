@@ -197,3 +197,287 @@ justify-content: center;
     outline: none;
     background: transparent;
 }
+.our{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#middle{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.our_r{
+   flex-basis: 60%;
+}
+.villa_btn{
+align-self: baseline;
+transform: translateY(50px);
+height: 50px;
+width: 150px;
+border: 1px solid #E2CB89;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.our_r h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 53px;
+line-height: 64px;
+/* identical to box height, or 121% */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #000000;
+
+ 
+}
+.our_r p{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 188% */
+display: flex;
+align-items: center;
+margin-top: -20px;
+color: #424242;
+
+
+}
+.villa_btn button{
+   background: transparent;
+   border: none;
+}
+.hotels{
+padding-top: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+.first{
+flex-basis: 32%;
+max-width: 350px;
+margin-bottom: 40px;
+cursor: pointer;
+transition-duration: .1s;
+}
+.first:hover{
+  box-shadow: 4px 4px 5px gray;
+   border: 2px solid salmon;
+}
+.second{
+flex-basis: 32%;
+max-width: 350px;
+margin-bottom: 40px;
+cursor: pointer;
+transition-duration: .1s;
+}
+.second:hover{
+   box-shadow: 4px 4px 5px gray;
+   border: 2px solid salmon;
+}
+.third{
+flex-basis: 32%;
+max-width: 350px;
+margin-bottom: 40px;
+cursor: pointer;
+transition-duration: .1s;
+}
+.third:hover{
+   box-shadow: 4px 4px 5px gray;
+   border: 2px solid salmon;
+}
+.four{
+flex-basis: 32%;
+max-width: 350px;
+margin-bottom: 40px;
+cursor: pointer;
+transition-duration: .1s;
+}
+.four:hover{
+   box-shadow: 4px 4px 5px gray;
+   border: 2px solid salmon;
+}
+.five{
+flex-basis: 32%;
+max-width: 350px;
+margin-bottom: 40px;
+cursor: pointer;
+transition-duration: .1s;
+}
+.five:hover{
+   box-shadow: 4px 4px 5px gray;
+   border: 2px solid salmon;
+}
+.six{
+flex-basis: 32%;
+max-width: 350px;
+margin-bottom: 40px;
+cursor: pointer;
+transition-duration: .1s;
+}
+.six:hover{
+   box-shadow: 4px 4px 5px gray;
+   border: 2px solid salmon;
+}
+.up_part{
+   
+}
+.up_part img{
+overflow: hidden;
+max-width: 350px;
+}
+.imojis{
+   position: absolute;
+   background: rgb(255, 255, 255);
+   margin-top: -38px;
+   height: 35px;
+ width: 220px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+.imojis ul{
+  
+
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+
+margin-left: -30px;
+margin-top: -5;
+
+
+height: 35px;
+gap: 20px;
+
+padding-right: 8px;
+
+}
+.imojis ul li{
+}
+.hotel_middle{
+   
+}
+.hotel_middle h4{
+margin: 20px 8px;
+color: #000;
+font-family: Gilda Display;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.hotel_middle p{
+   color: #424242;
+   font-family: Barlow;
+   font-size: 16px;
+   font-style: normal;
+   max-width: 280px;
+   font-weight: 400;
+   line-height: 24px;
+   margin-left: 8px;
+}
+.hotel_bottom{
+   margin-left: 8px;
+   margin-right: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.buottom_first{
+   gap: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+
+}
+.buottom_first img{
+
+}
+.buottom_first p{
+   color: var(--black-3, #8588A2);
+   font-family: Barlow;
+   font-size: 16px;
+   font-style: normal;
+}
+.hotel_btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 112.846px;
+height: 46.845px;
+background-color:  #E2CB89;;
+}
+.hotel_btn button{
+background: transparent;
+border: none;
+}
+.view_btn{
+   height: 50px;
+width: 150px;
+border: 1px solid #E2CB89;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.view_btn button{
+   background: transparent;
+   border: none;
+}
+#second_middle{
+   background-color:#F8F5F0; ;
+}
+.middle_container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.middle_img{
+   flex-basis: 50%;
+}
+.middle_img img{
+width: 100%;
+}
+.middle_text{
+   flex-basis: 50%;
+}
+.middle_text h2{
+   color: #000;
+   font-family: Gilda Display;
+   font-size: 47.041px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 55.509px; /* 118% */
+   text-transform: capitalize;
+}
+.middle_text p{
+   color: #424242;
+   font-family: Barlow;
+   font-size: 13.685px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.659px;
+}
+.dubai_img{
+   transform: translateY(-7px);
+}
+.myrtle h2{
+   padding-left: 80px; 
+}
+.myrtle p{
+   padding-left: 80px; 
+}
+.first_view{
+   margin-left: 80px; 
+
+}
